@@ -15,7 +15,7 @@ class XiaoApplicationTests {
 	 * 破解插件地址：https://gitee.com/pengzhile/ide-eval-resetter
 	 */
 	@Test
-	void contextLoads() {
+	void getResult() {
 		String val = "73.25%";
 		for (int i = 0; i < 100000000; i++) {
 			val = DigestUtils.md2Hex(val);
